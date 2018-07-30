@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="存储单条数据"/>
+
+    <Button
+        android:id="@+id/btn_saveOrUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="存储或者更新数据"/>
+
+    <Button
+        android:id="@+id/btn_saveAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="存储集合数据"/>
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="修改数据"/>
+
+    <Button
+        android:id="@+id/btn_updateAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="修改指定查询到的数据"/>
+
+    <Button
+        android:id="@+id/btn_find"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查询表中数据"/>
+
+    <Button
+        android:id="@+id/btn_del"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删除数据"/>
+
+</LinearLayout>
